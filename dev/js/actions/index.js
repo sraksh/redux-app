@@ -1,7 +1,7 @@
 export const selectUser = (user)=> {
 	console.log("selected user: ", user.first);
 	return {
-		type: "USER_SELECTED",
+		type: "BOOK_SELECTED",
 		payload: user
 	}
 }

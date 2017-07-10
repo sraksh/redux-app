@@ -1,16 +1,19 @@
-import React from 'react';
-import UserList from '../containers/user-list';
-import UserDetails from '../containers/user-details';
+import React, {Component} from 'react';
+import BookList from '../containers/book-list';
+// import BookDetails from '../containers/book-details';
 require('../../scss/style.scss');
 
-const App = () => (
-	<div>
-		<h2>Book List: </h2>
-		<UserList/>
-		<hr/>
-		<h2>User Details: </h2>
-		<UserDetails/>
-	</div>
-);
-
+class App extends Component {
+	render() {
+    return (
+    <div>
+          <h2>Book List: </h2>
+          <BookList/>
+          <hr/>
+          {/*<h2>User Details: </h2>
+          <BookDetails/>*/}
+        </div>
+    );
+	}
+}
 export default App;
