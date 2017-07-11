@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import BookList from '../containers/book-list';
-// import BookDetails from '../containers/book-details';
+import BookDetails from '../containers/book-details';
 require('../../scss/style.scss');
 
 class App extends Component {
@@ -10,8 +10,8 @@ class App extends Component {
           <h2>Book List: </h2>
           <BookList/>
           <hr/>
-          {/*<h2>User Details: </h2>
-          <BookDetails/>*/}
+          <h2>Book Details: </h2>
+          <BookDetails/>
         </div>
     );
 	}

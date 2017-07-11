@@ -1,6 +1,5 @@
 export default function () {
-  return [
-    {
+  return [{
       title: 'Javascript: Good Parts'
     },
     {
